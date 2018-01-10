@@ -25,7 +25,7 @@ In order to install the project, you will need a ROS distribution running in you
 ### Installing
 
 In order to install all the dependencies you will have to install:
-* [`rpg_dvs_ros`](https://github.com/uzh-rpg/rpg_dvs_ros): where we will use `dvs_ros_driver`(and then `dvs_driver`), `dvs_msgs`, `dvs_renderer`, `libcaer_catkin` (and then `libcaer`)
+* [`rpg_dvs_ros`](https://github.com/uzh-rpg/rpg_dvs_ros): where you will require `dvs_ros_driver`(and then `dvs_driver`), `dvs_msgs`, `dvs_renderer`, `libcaer_catkin` (and then `libcaer`)
 * [`catkin_simple`](https://github.com/catkin/catkin_simple)
 
 ## Running the tests
@@ -72,7 +72,7 @@ Please report problems, bugs, or suggestions to fbarranco_at_ugr_dot_es (Replace
 
 ## License
 
-Copyright (C) 2015 Francisco Barranco, 11/18/2015, University of Granada.
+Copyright (C) 2018 Francisco Barranco, 01/09/2018, University of Granada.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License.
 
