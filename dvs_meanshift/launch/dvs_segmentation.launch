@@ -21,9 +21,9 @@
     	 <remap from="image" to="dvs_segmentation"/> 
   	  </node>
   	  
-  	<!--  <node name="image_view2" pkg="image_view" type="image_view"  output = "screen"> -->
-    <!--	<remap from="image" to="dvs_undistorted"/> -->
-  	<!--  </node> -->
+  <!--	  <node name="image_view3" pkg="image_view" type="image_view"  output = "screen"> -->
+  <!--  	<remap from="image" to="dvs_debug1"/> -->
+  <!--	  </node> -->
 	 
   <!-- configure -->
   <!-- <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" /> -->

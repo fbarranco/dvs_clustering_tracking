@@ -139,8 +139,8 @@ void im2segment(cv::Mat input, cv::Mat cv_image_output, float sigma, float k, in
 	    }
 	}
 
-	//std::cout<<"I'm here!!"<<std::endl;
-	//savePPM(inputIm, "/home/fran/input_image.ppm");
+	std::cout<<"I'm here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"<<std::endl;
+	savePPM(inputIm, "/home/fran/input_image.ppm");
 
 	image<rgb> *seg = segment_image(inputIm, sigma, k, min_size, num_ccs);
 

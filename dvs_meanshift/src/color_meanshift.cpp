@@ -376,7 +376,7 @@
 			// if mean doesn't move much stop this cluster
 			if((myMeanX-myOldMeanX)*(myMeanX-myOldMeanX) + (myMeanY-myOldMeanY)*(myMeanY-myOldMeanY) + (myMeanZ-myOldMeanZ)*(myMeanZ-myOldMeanZ) < stopThresh)
 			{
-				//check for merge posibilities
+				//check for merge possibilities
 				int mergeWith = -1;
 				double distToOther;
 				for(int cN = 0; cN<numClust; cN++) //Careful!! cN goes from 1 to numClust!!!

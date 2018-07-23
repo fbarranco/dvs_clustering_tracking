@@ -72,5 +72,5 @@ include_directories(
 # )
 
 add_executable(dvs_meanshift src/meanshift.cpp src/meanshift_node.cpp src/color_meanshift.cpp src/segment.cpp src/image_reconst.cpp)
-target_link_libraries(dvs_meanshift ${catkin_LIBRARIES} ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES})
+target_link_libraries(dvs_meanshift ${catkin_LIBRARIES} ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES} ${OpenCV_LIBS})
 add_dependencies(dvs_meanshift ${catkin_EXPORTED_TARGETS} )

@@ -1,10 +1,10 @@
-# DVS Segmentation 
+# Real-time clustering and tracking for event-based sensors 
 
-This package implements a simple segmentation algorithm using DVS data (event based camera). 
+This package implements a clustering and tracking using Kalman filters for DVS data (event based camera). 
 
 ## Getting Started
 
-Clone or donwload the project. After that, first source your *ROS distro* files:
+Clone or download the project. After that, first source your *ROS distro* files:
 ```
 $ source /opt/ros/<your_distro>/setup.bash
 ```
@@ -61,6 +61,13 @@ Then, run in a different console (you'll need to source again the *setup.bash* f
 $ roslaunch dvs_meanshift dvs_segmentation.launch
 ```
 
+## Publications
+
+If you use this work in an academic context, please cite the following publication:
+
+* F. Barranco, C. Fermuller, E. Ros: **Real-time clsutering for multi-target tracking using event-based sensors**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018. ([PDF](https://arxiv.org/pdf/1807.02851.pdf))
+
+
 ## Authors
 
 * **Francisco Barranco** - *University of Granada*
@@ -68,7 +75,7 @@ Please report problems, bugs, or suggestions to fbarranco_at_ugr_dot_es (Replace
 
 ## Acknowledgments
 
-* Project X
+* This work was supported by a Spanish Juan de la Cierva grant (IJCI-2014-21376), partially funded by MINECO-FEDER TIN2016-81041-R grant, the EU HPB-SGA2 grant (H2020-RIA 785907), the National Science Foundation under grant SMA 1540916, and the NG-UMD seed grant (Object Motion Analysis for Autonomous Systems).
 
 ## License
 
