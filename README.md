@@ -11,8 +11,8 @@ $ source /opt/ros/<your_distro>/setup.bash
 
 And follow the next files to compile the package:
 ```
-$ mkdir -p ~/dvs_segmentation/src
-$ cd ~/dvs_segmentation/
+$ mkdir -p ~/dvs_clustering_tracking/src
+$ cd ~/dvs_clustering_tracking/
 $ catkin_make
 ```
 
@@ -33,14 +33,14 @@ In order to install all the dependencies you will have to install:
 After the compiling the project code, source the *setup.bash* file
 
 ```
-:~/dvs_segmentation$ source devel/setup.bash
+:~/dvs_clustering_tracking$ source devel/setup.bash
 ```
 Next, we will show two examples for running some of the tests:
 
 ### Running the dvs_renderer
 If you do not have the DVS camera and want to run a file, simply run:
 ```
-:~/dvs_segmentation$ rosbag play ~/bagfiles/shapes_rotation.bag -l
+:~/dvs_clustering_tracking$ rosbag play ~/bagfiles/shapes_rotation.bag -l
 ```
 where in `~/bagfiles` we have the rosbag file with dvs events ([rosbag files dataset] (http://rpg.ifi.uzh.ch/davis_data.html)) 
 
@@ -52,7 +52,7 @@ $ roslaunch dvs_renderer dvs_mono.launch
 ### Running dvs_meanshift
 In case there is no attached DVS, just run the same rosbag example:
 ```
-:~/dvs_segmentation$ rosbag play ~/bagfiles/shapes_rotation.bag -l
+:~/dvs_clustering_tracking$ rosbag play ~/bagfiles/shapes_rotation.bag -l
 ```
 where in `~/bagfiles` we have the rosbag file with dvs events ([rosbag files dataset] (http://rpg.ifi.uzh.ch/davis_data.html))
 
